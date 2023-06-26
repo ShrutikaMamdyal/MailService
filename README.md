@@ -33,3 +33,5 @@ MailService Project using Java javax.mail
 1. get session
 2. compose mail
 3. send transport
+
+Refer code attached 
