@@ -46,7 +46,7 @@ public class MailService {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
 				// TODO Auto-generated method stub
-				return new PasswordAuthentication("shrutikamamdyal456@gmail.com","dezrluowhkpmrxqv");
+				return new PasswordAuthentication("xyz@gmail.com","dezrluowhkpmrxyz");
 			}
 		});
 		
@@ -75,14 +75,14 @@ public class MailService {
 	public void sendMail(List<String> to, List<String> cc,String Subject,MimeMultipart mimeMultipart) throws MessagingException {
 		
 		//Declare Host
-		String host = "smtpcorp.netcore.co.in";
-		//String host="smtp.gmail.com";
+		//String host = "smtpcorp.netcore.co.in";
+		String host="smtp.gmail.com";
 		
 		//Declare username & password
-		final String username = "smtp_corp_relay@coreintegra.com";
-		final String password = "#CoreMail$2525@";
+		final String username = "xyz@gmail.com";
+		final String password = "dezrluowhkpmrxyz";
 		//Declare From
-		String from = "ctrlf@coreintegra.com";
+		String from = "xyz@gmail.com";
 		
 		Properties properties = new Properties();
 
